@@ -5,6 +5,8 @@ import Bondhu from '../Bondhu/Bondhu';
 
 const Friends = () => {
     const friends = useLoaderData();
+    
+    console.log(friends);
     return (
         <div>
             <h2>I have so many friends! yah hooo!!!!</h2>
